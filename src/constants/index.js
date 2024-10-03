@@ -60,7 +60,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "React Icons"],
-	githubPage: "https://lokeshloki3.github.io/reactportfolio/",
+	githubPage: "https://lokeshloki3.github.io/reactportfolioanimate/",
   },
   {
     title: "Weather App",
