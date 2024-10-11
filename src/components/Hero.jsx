@@ -21,13 +21,13 @@ const childVariants = {
 const Hero = () => {
 
     // Function to handle the download click
-    const handleDownloadClick = (e) => {
-        const userConfirmed = window.confirm("Want to download the resume?");
-        if (!userConfirmed) {
-            // Prevent the download if user cancels
-            e.preventDefault();
-        }
-    };
+    // const handleDownloadClick = (e) => {
+    //     const userConfirmed = window.confirm("Want to download the resume?");
+    //     if (!userConfirmed) {
+    //         Prevent the download if user cancels
+    //         e.preventDefault();
+    //     }
+    // };
 
   return (
     <div className='pb-4 lg:mb-36'>
@@ -37,8 +37,8 @@ const Hero = () => {
                     <motion.img src={profilePic}
                     alt='Lokesh'
                     className='border border-stone-900 rounded-3xl'
-                    width={650}
-                    height={650}
+                    width={400}
+                    height={400}
                     initial={{ x:100, opacity: 0 }}
                     animate={{ x:0, opacity: 1 }}
                     transition={{ duration: 1, delay: 1.5 }}
@@ -68,13 +68,11 @@ const Hero = () => {
                     </motion.p>
                     <motion.a 
                     variants={childVariants}
-                    href='/reactportfolioanimate/Resume_NSIT_288CO12.pdf'
+                    href='https://lokeshloki3.github.io/resume/Lokesh_Resume_NSIT_288CO12.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
-                    download
-                    onClick={handleDownloadClick}
-                    className='bg-white rounded-2xl p-4 text-sm text-stone-800 mb-10'>
-                        Download Resume
+                    className='bg-white rounded-xl p-3 text-2xl font-bold text-stone-800 mb-10'>
+                        View Resume
                     </motion.a>
                 </motion.div>
             </div>
