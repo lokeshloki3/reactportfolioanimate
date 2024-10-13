@@ -1,3 +1,5 @@
+Created a personal portfolio website showcasing projects, skills, and contact information using React.js,Tailwind CSS, Framer Motion.
+
 Demo - https://lokeshloki3.github.io/reactportfolioanimate/
  
 Steps -
