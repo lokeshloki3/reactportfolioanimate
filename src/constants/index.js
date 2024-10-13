@@ -16,14 +16,14 @@ export const EXPERIENCES = [
     year: "July, 2017 - Sept, 2018",
     role: "Software Engineer",
     company: "Samsung R&D Institute, Noida",
-    description: `Worked on various components of Samsung Smart TVs for the ATSC, DVB, and ISDB regions, specifically while Samsung was changing the UI of the Kant-S and Kant-M models. Worked on Cleaner, Remote Management, Settings, Channel List components in which processed data in JSON format.`,
+    description: `Contributed to the development of various Samsung Smart TV components, including Cleaner, Remote Management, Settings, and Channel List, enhancing functionality across ATSC, DVB, and ISDB regions by efficiently processing data in JSON format. This work supports ongoing upgrades to the Smart TV UI, ensuring a seamless user experience.`,
     technologies: ["Python", "React", "JavaScript", "HTML", "CSS", "Linux", "C++"],
   },
   {
     year: "Dec, 2016 - June, 2017",
     role: "Software Engineer Trainee",
     company: "Samsung R&D Institute, Noida",
-    description: `Acquired knowledge about various components of Samsung Smart TVs, worked on resolving software image bugs for production, and developed a frontend UI to display daily results.`,
+    description: `Gained comprehensive knowledge of Samsung Smart TV components while resolving software image bugs for production and developing a frontend UI to display daily results.`,
     technologies: ["Python", "HTML", "CSS", "Linux", "C++"],
   },
 ];
