@@ -2,9 +2,10 @@ import project1 from "../assets/projects/shoppingcart.png";
 import project2 from "../assets/projects/blog.png";
 import project3 from "../assets/projects/jobs.png";
 import project4 from "../assets/projects/portfolio.png";
-import project5 from "../assets/projects/weather.png";
-import project6 from "../assets/projects/password.png";
-import project7 from "../assets/projects/discord.png";
+import project5 from "../assets/projects/cortihear.png";
+import project6 from "../assets/projects/weather.png";
+import project7 from "../assets/projects/password.png";
+import project8 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -60,11 +61,19 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "React Icons"],
-	githubPage: "https://lokeshloki3.github.io/reactportfolioanimate/",
+	githubPage: "https://lokeshloki3.github.io/reactportfolio/",
+  },
+  {
+    title: "Cortihear - Dr Appointment",
+    image: project5,
+    description:
+    "Created frontend of a single-page website using React for Doctor appointments, which includes options for categories of blog posts, a blog page, and testimonial slides. The webpage is mobile-responsive.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router"],
+	githubPage: "https://cortihear.netlify.app/",
   },
   {
     title: "Weather App",
-    image: project5,
+    image: project6,
     description:
       "The website displays weather data for your current city as well as any city you search for. The data is fetched using an API call.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -72,15 +81,15 @@ export const PROJECTS = [
   },
   {
     title: "Password Generator",
-    image: project6,
+    image: project7,
     description:
-      "Created a random password generator website having adjustable length via a slider, incorporating numbers, uppercase and lowercase letters, and special characters, featuring a password strength indicator and a copy option.",
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
   },
   {
     title: "Discord Clone",
-    image: project7,
+    image: project8,
     description:
       "A website that is a clone of the Discord website using Tailwind CSS.",
     technologies: ["HTML", "CSS", "Tailwind"],
