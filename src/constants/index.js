@@ -9,7 +9,8 @@ import project8 from "../assets/projects/password.png";
 import project9 from "../assets/projects/password.png";
 import project10 from "../assets/projects/password.png";
 import project11 from "../assets/projects/password.png";
-import project12 from "../assets/projects/discord.png";
+import project12 from "../assets/projects/password.png";
+import project13 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -97,7 +98,7 @@ export const PROJECTS = [
     description:
       "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
     technologies: ["HTML", "CSS", "JavaScript"],
-	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+	githubPage: "https://lokeshloki3.github.io/topcoursesreact/",
   },
   {
     title: "Testimonials",
@@ -105,7 +106,7 @@ export const PROJECTS = [
     description:
       "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
     technologies: ["HTML", "CSS", "JavaScript"],
-	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+	githubPage: "https://lokeshloki3.github.io/testimonialreact/",
   },
   {
     title: "Tic Tac Toe Game",
@@ -113,19 +114,27 @@ export const PROJECTS = [
     description:
       "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
     technologies: ["HTML", "CSS", "JavaScript"],
-	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+	githubPage: "https://lokeshloki3.github.io/tictactoe/",
   },
   {
-    title: "Github Users - Dev Detective",
+    title: "1-8 Numbers Slider Puzzle Game",
     image: project11,
     description:
       "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
     technologies: ["HTML", "CSS", "JavaScript"],
-	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+	githubPage: "https://lokeshloki3.github.io/1-8-Slider-Puzzle/",
+  },
+  {
+    title: "Github Users - Dev Detective",
+    image: project12,
+    description:
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/devdetectivegithub/",
   },
   {
     title: "Discord Clone",
-    image: project12,
+    image: project13,
     description:
       "A website that is a clone of the Discord website using Tailwind CSS.",
     technologies: ["HTML", "CSS", "Tailwind"],
