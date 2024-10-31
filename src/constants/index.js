@@ -5,11 +5,11 @@ import project4 from "../assets/projects/portfolio.png";
 import project5 from "../assets/projects/cortihear.png";
 import project6 from "../assets/projects/weather.png";
 import project7 from "../assets/projects/password.png";
-import project8 from "../assets/projects/password.png";
-import project9 from "../assets/projects/password.png";
-import project10 from "../assets/projects/password.png";
-import project11 from "../assets/projects/password.png";
-import project12 from "../assets/projects/password.png";
+import project8 from "../assets/projects/topcourses.png";
+import project9 from "../assets/projects/testimonials.png";
+import project10 from "../assets/projects/tictactoe.png";
+import project11 from "../assets/projects/1-8puzzle.png";
+import project12 from "../assets/projects/devdetectivegithub.png";
 import project13 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -57,7 +57,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "Frontend of a single-page website for job listings, with options to add a new job, view jobs, edit existing jobs with toaster notifications while maintaining their states, switch tabs, and used sessionStorage of the browser for these backend features.",
-    technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "sessionStorage", "Vite"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router", "sessionStorage", "Vite"],
 	githubPage: "https://lokeshloki3.github.io/reactjobsvitefull/",
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "React Icons"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router", "React Icons"],
 	githubPage: "https://lokeshloki3.github.io/reactportfolio/",
   },
   {
@@ -81,14 +81,14 @@ export const PROJECTS = [
     image: project6,
     description:
       "The website displays weather data for your current city as well as any city you search for. The data is fetched using an API call.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript", "fetch API"],
 	githubPage: "https://lokeshloki3.github.io/Weather-App-api-fetch-JS/",
   },
   {
     title: "Password Generator",
     image: project7,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and password copy functionality.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
   },
@@ -96,15 +96,15 @@ export const PROJECTS = [
     title: "Top Courses",
     image: project8,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "Created a top courses webpage with tabs for different course categories and a heart icon for favouriting, featuring toast notifications that indicate whether a course is added or removed from favourites",
+    technologies: ["HTML", "CSS", "JavaScript", "Toastify"],
 	githubPage: "https://lokeshloki3.github.io/topcoursesreact/",
   },
   {
     title: "Testimonials",
     image: project9,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+      "Created a testimonial webpage featuring Next and Previous buttons for scrolling through testimonials and a Surprise Me button for random selections. Designed with a clean layout to enhance readability and user engagement.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/testimonialreact/",
   },
@@ -112,7 +112,7 @@ export const PROJECTS = [
     title: "Tic Tac Toe Game",
     image: project10,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+      "Created a Tic Tac Toe game that allows players to select the first player and highlights winning combinations with colored lines. Features a clickable grid, a reset button, and a win-checking algorithm.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/tictactoe/",
   },
@@ -120,7 +120,7 @@ export const PROJECTS = [
     title: "1-8 Numbers Slider Puzzle Game",
     image: project11,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+      "Developed a Numbers Slider Puzzle Game featuring a grid-based interface where players can slide numbered tiles to arrange them in order. Features a move counter, and reset button. Utilized JavaScript for game logic, CSS for responsive design, and HTML for structure.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/1-8-Slider-Puzzle/",
   },
@@ -128,16 +128,16 @@ export const PROJECTS = [
     title: "Github Users - Dev Detective",
     image: project12,
     description:
-      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "Developed a Dev Detective project that fetches GitHub user data using the API and displays it in an organized format. Features a user-friendly search interface and detailed profiles for each user.",
+    technologies: ["HTML", "CSS", "JavaScript", "fetch API"],
 	githubPage: "https://lokeshloki3.github.io/devdetectivegithub/",
   },
   {
     title: "Discord Clone",
     image: project13,
     description:
-      "A website that is a clone of the Discord website using Tailwind CSS.",
-    technologies: ["HTML", "CSS", "Tailwind"],
+      "A website that is a clone of the Discord website using HTML, and Tailwind CSS.",
+    technologies: ["HTML", "CSS", "Tailwind CSS"],
 	githubPage: "https://lokeshloki3.github.io/discordclone/",
   },
 ];
