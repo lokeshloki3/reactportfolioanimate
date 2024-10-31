@@ -5,7 +5,11 @@ import project4 from "../assets/projects/portfolio.png";
 import project5 from "../assets/projects/cortihear.png";
 import project6 from "../assets/projects/weather.png";
 import project7 from "../assets/projects/password.png";
-import project8 from "../assets/projects/discord.png";
+import project8 from "../assets/projects/password.png";
+import project9 from "../assets/projects/password.png";
+import project10 from "../assets/projects/password.png";
+import project11 from "../assets/projects/password.png";
+import project12 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -88,8 +92,40 @@ export const PROJECTS = [
 	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
   },
   {
-    title: "Discord Clone",
+    title: "Top Courses",
     image: project8,
+    description:
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+  },
+  {
+    title: "Testimonials",
+    image: project9,
+    description:
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+  },
+  {
+    title: "Tic Tac Toe Game",
+    image: project10,
+    description:
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+  },
+  {
+    title: "Github Users - Dev Detective",
+    image: project11,
+    description:
+      "Created a Random Password Generator webpage with slider to adjust length, password strength indicator, and options for numbers, uppercase and lowercase letters, special characters, and copy functionality using JavaScript, CSS, HTML.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
+  },
+  {
+    title: "Discord Clone",
+    image: project12,
     description:
       "A website that is a clone of the Discord website using Tailwind CSS.",
     technologies: ["HTML", "CSS", "Tailwind"],
