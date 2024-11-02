@@ -9,8 +9,9 @@ import project8 from "../assets/projects/topcourses.png";
 import project9 from "../assets/projects/testimonials.png";
 import project10 from "../assets/projects/tictactoe.png";
 import project11 from "../assets/projects/1-8puzzle.png";
-import project12 from "../assets/projects/devdetectivegithub.png";
-import project13 from "../assets/projects/discord.png";
+import project12 from "../assets/projects/plantour.png";
+import project13 from "../assets/projects/devdetectivegithub.png";
+import project14 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -125,8 +126,16 @@ export const PROJECTS = [
 	githubPage: "https://lokeshloki3.github.io/1-8-Slider-Puzzle/",
   },
   {
-    title: "Github Users - Dev Detective",
+    title: "Plan Tour",
     image: project12,
+    description:
+      "Created an interactive tour guide webpage featuring cards of Indian cities. Option to remove city cards of no interest, with a refresh option to display all cards again once all have been removed.",
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/tourguidereact/",
+  },
+  {
+    title: "Github Users - Dev Detective",
+    image: project13,
     description:
       "Developed a Dev Detective project that fetches GitHub user data using the API and displays it in an organized format. Features a user-friendly search interface and detailed profiles for each user.",
     technologies: ["HTML", "CSS", "JavaScript", "fetch API"],
@@ -134,7 +143,7 @@ export const PROJECTS = [
   },
   {
     title: "Discord Clone",
-    image: project13,
+    image: project14,
     description:
       "A website that is a clone of the Discord website using HTML, and Tailwind CSS.",
     technologies: ["HTML", "CSS", "Tailwind CSS"],
