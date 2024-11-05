@@ -73,9 +73,9 @@ export const PROJECTS = [
     title: "Cortihear - Dr Appointment",
     image: project5,
     description:
-    "Created frontend of a single-page website using React for Doctor appointments, which includes options for categories of blog posts, a blog page, and testimonial slides. The webpage is mobile-responsive.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router"],
-	githubPage: "https://cortihear.netlify.app/",
+    "Created a single-page React website for Doctor appointments, featuring blog categories, a blog page, testimonial slides, and a 'Book Appointment' popup form that stores data in Google Sheets via a POST request using Google Apps Script. The webpage is also mobile-responsive.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router", "Google Sheets & Apps Script"],
+	githubPage: "https://cortihear.vercel.app/",
   },
   {
     title: "Weather App",
