@@ -82,7 +82,7 @@ export const PROJECTS = [
     image: project6,
     description:
       "The website displays weather data for your current city as well as any city you search for. The data is fetched using an API call.",
-    technologies: ["HTML", "CSS", "JavaScript", "fetch API"],
+    technologies: ["HTML", "CSS", "JavaScript", "fetch"],
 	githubPage: "https://lokeshloki3.github.io/Weather-App-api-fetch-JS/",
   },
   {
