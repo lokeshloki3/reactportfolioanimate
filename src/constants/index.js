@@ -75,7 +75,7 @@ export const PROJECTS = [
     description:
     "Created a single-page React website for Doctor appointments, featuring blog categories, a blog page, testimonial slides, and a 'Book Appointment' popup form that stores data in Google Sheets via a POST request using Google Apps Script. The webpage is also mobile-responsive.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Router", "Google Sheets & Apps Script"],
-	githubPage: "https://cortihear.vercel.app/",
+	githubPage: "https://lokeshloki3.github.io/drappointment/",
   },
   {
     title: "Weather App",
