@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href="#technologies">Technologies</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <span className="flex flex-row gap-4">
+        <div className="flex flex-row gap-4">
           <a
             href="https://www.linkedin.com/in/lokesh021loki/"
             target="_blank"
@@ -36,7 +36,7 @@ const Navbar = () => {
           >
             <FaGithub />
           </a>
-        </span>
+        </div>
       </div>
     </nav>
   );
