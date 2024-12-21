@@ -68,7 +68,7 @@ const Hero = () => {
                     </motion.p>
                     <motion.a 
                     variants={childVariants}
-                    href='https://lokeshloki3.github.io/resume/Lokesh_Resume_NSIT_288CO12.pdf'
+                    href='https://lokeshloki3.github.io/resume/Lokesh_Resume.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='bg-white rounded-xl p-3 text-2xl font-bold text-stone-800 mb-10'>
