@@ -70,7 +70,7 @@ export const PROJECTS = [
 	githubPage: "https://lokeshloki3.github.io/reactportfolio/",
   },
   {
-    title: "XYZ Clinic Appointment",
+    title: "Clinic Appointment",
     image: project5,
     description:
     "Created a single-page React website for Doctor appointments, featuring blog categories, a blog page, testimonial slides, and a 'Book Appointment' popup form that stores data in Google Sheets via a POST request using Google Apps Script. The webpage is also mobile-responsive.",
