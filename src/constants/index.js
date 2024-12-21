@@ -23,15 +23,17 @@ export const EXPERIENCES = [
     year: "July, 2017 - Sept, 2018",
     role: "Software Engineer",
     company: "Samsung R&D Institute, Noida",
-    description: `Contributed to the development of various Samsung Smart TV components, including Cleaner, Remote Management, Settings, and Channel List, enhancing functionality across ATSC, DVB, and ISDB regions by efficiently processing data in JSON format. This work supports ongoing upgrades to the Smart TV UI, ensuring a seamless user experience.`,
-    technologies: ["Python", "React", "JavaScript", "HTML", "CSS", "Linux", "C++"],
+    // description: `Contributed to the development of various Samsung Smart TV components, including Cleaner, Remote Management, Settings, and Channel List, enhancing functionality across ATSC, DVB, and ISDB regions by efficiently processing data in JSON format. This work supports ongoing upgrades to the Smart TV UI, ensuring a seamless user experience.`,
+    description: `Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch.  Created a responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida. Worked on ongoing Samsung Smart TV UI upgrades.`,
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Linux", "C++"],
   },
   {
     year: "Dec, 2016 - June, 2017",
     role: "Software Engineer Trainee",
     company: "Samsung R&D Institute, Noida",
-    description: `Gained comprehensive knowledge of Samsung Smart TV components while resolving software image bugs for production and developing a frontend UI to display daily results.`,
-    technologies: ["Python", "HTML", "CSS", "Linux", "C++"],
+    // description: `Gained comprehensive knowledge of Samsung Smart TV components while resolving software image bugs for production and developing a frontend UI to display daily results.`,
+    description: `Developed a website to display Tizen native system cleaner results for Smart TVs. Stored and displayed results related to cache, memory, temperature, and app data for optimization on website. Resolved software image bugs and gained expertise in Samsung Smart TV components.`,
+    technologies: ["HTML", "CSS", "Linux", "C++"],
   },
 ];
 
