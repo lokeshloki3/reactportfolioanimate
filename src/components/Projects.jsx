@@ -17,15 +17,15 @@ const Projects = () => {
                   width={250}
                   height={250}
                   alt={project.title}
-                  className="mb-6 rounded"
+                  className="mb-6 rounded place-self-center"
                 />
               </a>
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <a href={project.githubPage} target="_blank">
-                <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+                <h3 className="mb-2 font-semibold text-2xl place-self-center">{project.title}</h3>
               </a>
-              <p className="mb-4 text-stone-400">{project.description}</p>
+              <p className="mb-4 text-stone-400 text-justify">{project.description}</p>
               <p className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                 {project.technologies.map((tech, index) => (
                   <span
