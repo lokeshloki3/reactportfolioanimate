@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/studysphere.png";
 import project1 from "../assets/projects/shoppingcart.png";
 import project2 from "../assets/projects/blog.png";
 import project3 from "../assets/projects/jobs.png";
@@ -12,12 +13,27 @@ import project11 from "../assets/projects/1-8puzzle.png";
 import project12 from "../assets/projects/plantour.png";
 import project13 from "../assets/projects/devdetectivegithub.png";
 import project14 from "../assets/projects/discord.png";
+import project15 from "../assets/projects/aisafety.png";
+import project16 from "../assets/projects/simpletaskmanager.png";
+import project17 from "../assets/projects/simpleecom.png";
+import project18 from "../assets/projects/embeddedyouTubeplayer.png";
+import project19 from "../assets/projects/taskmanager.png";
+import project20 from "../assets/projects/cards.png";
+import project21 from "../assets/projects/weatherapi.png";
+// import project22 from "../assets/projects/dinogame.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with 2 years of hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, and Tailwind. Over the years, I have honed my skills in creating responsive, user-friendly interfaces and optimizing performance. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, JavaScript, HTML, CSS, and Tailwind. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Dec, 2024 - Present",
+    role: "Web Development Intern",
+    company: "Saral Tech, Bangalore",
+    description: `Built a networking platform for early-stage startups using React.js, Next.js, and TailwindCSS to connect with investors, improving startup-investor interactions. Managed full-stack development, from backend architecture to frontend implementation. Integrated OAuth 2.0 for secure authentication and SSO, enhancing user security. Transitioned backend to a monolithic Next.js API and Edge model, optimizing performance. Implemented CI/CD pipelines using GitHub Actions and Cloudflare Pages, improving release efficiency. Currently working on an EdTech platform to connect tutors and students, facilitating better learning environments.`,
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Tailwind", "Next.js", "CI/CD", "OAuth 2.0"],
+  },
   {
     year: "July, 2017 - Sept, 2018",
     role: "Software Engineer",
@@ -37,6 +53,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "StudySphere EdTech Platform",
+    image: project0,
+    description:
+      `Multi-role (admin, instructor, student), Responsive UI (tab, slider, animation), Email OTP signup, Reset Password, Profile edit (pic, about, cron deletion), Admin adds Category, Instructor creates/edits/deletes course (subsection, video, publish), Earnings charts, Student multi-course Cart, Buy Now, Razorpay payments, Video lectures (accordion, mark complete, navigate), Progress tracking, Star rating, Reviews, Frequently bought course, Contact form.`,
+    technologies: ["React", "Express.js", "CSS", "Redux", "MERN", "Tailwind", "Razorpay", "MongoDB"],
+    githubPage: "https://studysphere-edtech.vercel.app/",
+  },
   {
     title: "E-Commerce Website",
     image: project1,
@@ -140,6 +164,14 @@ export const PROJECTS = [
     githubPage: "https://lokeshloki3.github.io/testimonialreact/",
   },
   {
+    title: "E Com UI",
+    image: project17,
+    description:
+      "The web application includes a sign-up system with OTP verification and a login process secured by a token. Categories are dynamically loaded using Faker.js and the app supports pagination for easier navigation. Users can save their interests from the categories into a database, with their selections persisting even after they log out and log back in.",
+    technologies: ["React", "JavaScript", "Tailwind", "Vercel", "Express.js", "MongoDB", "Faker.js"],
+    githubPage: "https://e-com-nine-tau.vercel.app/",
+  },
+  {
     title: "Tic Tac Toe Game",
     image: project10,
     description:
@@ -178,6 +210,54 @@ export const PROJECTS = [
       "A website that is a clone of the Discord website using HTML, and Tailwind CSS.",
     technologies: ["HTML", "CSS", "TailwindCSS"],
     githubPage: "https://lokeshloki3.github.io/discordclone/",
+  },
+  {
+    title: "Task Manager",
+    image: project19,
+    description:
+      "Built a website with Google sign-in for authentication, task management with title, date, status, and delete options. Tasks can be categorized and filtered by status or due date, with both list and board views. Includes popup modals for editing/adding tasks, sorting by date, and retaining checkbox history after logout or refresh. Mobile responsive design.",
+    technologies: ["React", "TypeScript", "Firebase", "Google Auth", "HTML", "CSS", "TailwindCSS"],
+    githubPage: "https://altertodotaskmanager.vercel.app/",
+  },
+  {
+    title: "Search Cards UI",
+    image: project20,
+    description:
+      "Website with search functionality with data retrieval from a Mock API, loader during data fetch, Shadcn Dialog popup under the Navbar, direct search from the Navbar’s 'Show Info' section, and a 'No user found' message with an image/logo when no results are matched.",
+    technologies: ["React", "JavaScript", "Mock API", "Shadcn", "HTML", "CSS", "TailwindCSS"],
+    githubPage: "https://lokeshloki3.github.io/girmanreact/",
+  },
+  {
+    title: "Weather API",
+    image: project21,
+    description:
+      "Webpage showing Real-time city search with API-driven latitude/longitude retrieval, weather data fetch based on coordinates, and an option to add/remove cities from Favourites stored in local storage. Displays up to 8 favourites with current weather info on the homepage, detailed weather on click, toast notifications for add/remove actions, and mobile-responsive design",
+    technologies: ["React", "JavaScript", "Toast", "Local Storage", "HTML", "CSS", "TailwindCSS"],
+    githubPage: "https://lokeshloki3.github.io/weatherreact/",
+  },
+  {
+    title: "AI Safety Simple UI",
+    image: project15,
+    description:
+      "Frontend of a safety incident management system with features such as adding new safety incidents, displaying all incidents with filtering options by severity (Low, Medium, High) and incident age (Newest or Oldest), and the ability to view incident descriptions upon clicking 'Show Description', all designed with mobile responsiveness",
+    technologies: ["React", "JavaScript", "HTML", "CSS", "TailwindCSS"],
+    githubPage: "https://lokeshloki3.github.io/ai-safety/",
+  },
+  {
+    title: "Simple Task Manager UI",
+    image: project16,
+    description:
+      "The webpage is built using React and includes features such as the ability to add and delete tasks, with all operations saved to localStorage to ensure tasks persist even after a page reload. Users can mark tasks as completed or pending, filter tasks based on their status, and drag and drop tasks for easy reordering. It also offers a toggle for switching between dark and light themes and is fully mobile responsive.",
+    technologies: ["React", "JavaScript", "LocalStorage", "HTML", "CSS", "TailwindCSS"],
+    githubPage: "https://lokeshloki3.github.io/task-manager/",
+  },
+  {
+    title: "Simple YouTube Embedded Player",
+    image: project18,
+    description:
+      "The web application includes an embedded YouTube player with a customizable start time, checkboxes to mark videos as watched, and a progress bar to track completion. Users can navigate through tabs for files, comments, reviews, and challenges",
+    technologies: ["JavaScript", "HTML", "CSS", "YouTube API"],
+    githubPage: "https://lokeshloki3.github.io/youtube-aggregated/",
   },
 ];
 

@@ -9,13 +9,13 @@ const Projects = () => {
       </h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex gap-0 md:gap-4 flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
               <a href={project.githubPage} target="_blank">
                 <img
                   src={project.image}
-                  width={250}
-                  height={250}
+                  // width={250}
+                  // height={300}
                   alt={project.title}
                   className="mb-6 rounded place-self-center"
                 />
