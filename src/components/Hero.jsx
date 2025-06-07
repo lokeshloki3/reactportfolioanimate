@@ -1,4 +1,4 @@
-import profilePic from "../assets/lokeshProfile-removebg-preview.png";
+import profilePic from "../assets/lokeshProfile-removebg-preview.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -36,7 +36,7 @@ const Hero = () => {
             <motion.img
               src={profilePic}
               alt="Lokesh"
-              className="border border-stone-900 rounded-3xl"
+              className="border border-stone-900 rounded-full mt-10"
               width={400}
               height={400}
               initial={{ x: 100, opacity: 0 }}
