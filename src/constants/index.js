@@ -28,7 +28,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer wi
 
 export const EXPERIENCES = [
   {
-    year: "Dec, 2024 - Present",
+    year: "June,2025 - Present",
+    role: "SDE - 2 Frontend Developer",
+    company: "Razornext",
+    description: [
+      `Currently working on a client project for Flipkart, building a blogging platform using Next.js, TypeScript and Strapi Headless CMS. Implemented role-based access control in Strapi admin panel to manage content securely. Used TanStack Query for efficient API handling and Zustand for scalable state management. Focused on improving Core Web Vitals through page optimization techniques. Implementing Redis caching for blog data to reduce redundant backend calls and improve response times.`,
+    ],
+    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis"],
+  },
+  {
+    year: "Dec, 2024 - June, 2025",
     role: "Web Development Intern",
     company: "Saral Tech, Bangalore",
     description: `Built a networking platform for early-stage startups using React.js, Next.js, and TailwindCSS to connect with investors, improving startup-investor interactions. Managed full-stack development, from backend architecture to frontend implementation. Integrated OAuth 2.0 for secure authentication and SSO, enhancing user security. Transitioned backend to a monolithic Next.js API and Edge model, optimizing performance. Implemented CI/CD pipelines using GitHub Actions and Cloudflare Pages, improving release efficiency. Currently working on an EdTech platform to connect tutors and students, facilitating better learning environments.`,
@@ -39,7 +48,8 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Samsung R&D Institute, Noida",
     // description: `Contributed to the development of various Samsung Smart TV components, including Cleaner, Remote Management, Settings, and Channel List, enhancing functionality across ATSC, DVB, and ISDB regions by efficiently processing data in JSON format. This work supports ongoing upgrades to the Smart TV UI, ensuring a seamless user experience.`,
-    description: `Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch.  Created a responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida. Worked on ongoing Samsung Smart TV UI upgrades.`,
+    // description: `Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch.  Created a responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida. Worked on ongoing Samsung Smart TV UI upgrades.`,
+    description: `Built a native System Cleaner app for Tizen OS (C++) on Samsung Smart TVs, managing cache, memory, temperature, and app data. Integrated Stability Monitor module, reducing system crashes by 30% and enhancing overall reliability. Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch along with responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida`,
     technologies: ["React", "JavaScript", "HTML", "CSS", "Linux", "C++"],
   },
   {
