@@ -29,7 +29,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer wi
 export const EXPERIENCES = [
   {
     year: "June,2025 - Present",
-    role: "SDE - 2 Frontend Developer",
+    role: "SDE - 1 Frontend Developer",
     company: "Razornext",
     description: [
       `Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript. Contributed to the admin panel for category, catalog, coupons, order, and customer management. Used TanStack Query for efficient API handling and Zustand for scalable state management. Improved Core Web Vitals and performance using page optimization and caching techniques. Also worked on a Flipkart blogging platform, implementing RBAC using Strapi, Next.js, TypeScript, Redis to reduce redundant backend calls and improve response times.`    
