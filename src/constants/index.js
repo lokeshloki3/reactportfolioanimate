@@ -32,7 +32,7 @@ export const EXPERIENCES = [
     role: "SDE - 2 Frontend Developer",
     company: "Razornext",
     description: [
-      `Currently working on a client project for Flipkart, building a blogging platform using Next.js, TypeScript and Strapi Headless CMS. Implemented role-based access control in Strapi admin panel to manage content securely. Used TanStack Query for efficient API handling and Zustand for scalable state management. Focused on improving Core Web Vitals through page optimization techniques. Implementing Redis caching for blog data to reduce redundant backend calls and improve response times.`,
+      `Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript. Contributed to the admin panel for category, catalog, coupons, order, and customer management. Used TanStack Query for efficient API handling and Zustand for scalable state management. Improved Core Web Vitals and performance using page optimization and caching techniques. Also worked on a Flipkart blogging platform, implementing RBAC using Strapi, Next.js, TypeScript, Redis to reduce redundant backend calls and improve response times.`    
     ],
     technologies: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis"],
   },
