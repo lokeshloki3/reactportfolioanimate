@@ -32,9 +32,9 @@ export const EXPERIENCES = [
     role: "SDE - 1 Frontend Developer",
     company: "Razornext",
     description: [
-      `Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript. Contributed to the admin panel for category, catalog, coupons, order, and customer management. Used TanStack Query for efficient API handling and Zustand for scalable state management. Improved Core Web Vitals and performance using page optimization and caching techniques. Also worked on a Flipkart blogging platform, implementing RBAC using Strapi, Next.js, TypeScript, Redis to reduce redundant backend calls and improve response times.`    
+      `Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript. Contributed to the admin panel for category, catalog, coupons, order, and customer management. Used TanStack Query for efficient API handling and Zustand for scalable state management. Improved Core Web Vitals and performance using page optimization and caching techniques. Toskie talent onboarding GraphQL, Websocket, RBAC, Strapi, Next.js, TypeScript, Redis to reduce redundant backend calls, improve response times. Also worked on Flipkart blogging platform.`    
     ],
-    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis"],
+    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis", "GraphQL", "Websocket", "RBAC", "Strapi"],
   },
   {
     year: "Dec, 2024 - June, 2025",
@@ -49,16 +49,18 @@ export const EXPERIENCES = [
     company: "Samsung R&D Institute, Noida",
     // description: `Contributed to the development of various Samsung Smart TV components, including Cleaner, Remote Management, Settings, and Channel List, enhancing functionality across ATSC, DVB, and ISDB regions by efficiently processing data in JSON format. This work supports ongoing upgrades to the Smart TV UI, ensuring a seamless user experience.`,
     // description: `Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch.  Created a responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida. Worked on ongoing Samsung Smart TV UI upgrades.`,
-    description: `Built a native System Cleaner app for Tizen OS (C++) on Samsung Smart TVs, managing cache, memory, temperature, and app data. Integrated Stability Monitor module, reducing system crashes by 30% and enhancing overall reliability. Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch along with responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida`,
-    technologies: ["React", "JavaScript", "HTML", "CSS", "Linux", "C++"],
+    // description: `Built a native System Cleaner app for Tizen OS (C++) on Samsung Smart TVs, managing cache, memory, temperature, and app data. Integrated Stability Monitor module, reducing system crashes by 30% and enhancing overall reliability. Built an internal website using React to optimize access to new features and documentation for 52 teams working on Samsung Smart TV, improving workflow efficiency by 25%. Managed all stages of frontend development and deployment from scratch along with responsive interface with CSS and JS, enhancing employee engagement. Reduced onboarding time for new team members by 20% for 500+ employees at SRI, Noida`,
+    description: `Developed a System Cleaner application (C++, Tizen OS) for Samsung Smart TVs, optimizing cache, memory, temperature, and app data to improve system performance. Built a Python-based diagnostics and stability monitoring backend with automation (Python + XML), enabling real-time logging and root cause analysis, reducing crashes by 30%. Designed Python data pipelines and ETL workflows (Pandas/SQL) to analyze 10+ years of telemetry data, identifying high-risk modules and improving system reliability. Implemented RESTful services and backend automation workflows for targeted diagnostics diagnostics and testing, reducing redundant test cycles. Integrated C++ modules with Python backend, enabling monitoring and data-driven insights.`,
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Linux", "C++", "Python", "Pandas", "SQL"],
   },
   {
     year: "Dec, 2016 - June, 2017",
     role: "Software Engineer Trainee",
     company: "Samsung R&D Institute, Noida",
     // description: `Gained comprehensive knowledge of Samsung Smart TV components while resolving software image bugs for production and developing a frontend UI to display daily results.`,
-    description: `Developed a website to display Tizen native system cleaner results for Smart TVs. Stored and displayed results related to cache, memory, temperature, and app data for optimization on website. Resolved software image bugs and gained expertise in Samsung Smart TV components.`,
-    technologies: ["HTML", "CSS", "Linux", "C++"],
+    // description: `Developed a website to display Tizen native system cleaner results for Smart TVs. Stored and displayed results related to cache, memory, temperature, and app data for optimization on website. Resolved software image bugs and gained expertise in Samsung Smart TV components.`,
+    description: `Developed monitoring dashboards (Prometheus, Grafana, Tableau, Power BI) to visualize system performance, telemetry data, and anomaly detection. Built web-based internal tools (HTML, CSS, JavaScript) integrated with backend diagnostics, improving workflow efficiency by 25% and reducing onboarding time by 20% (500+ users).`,
+    technologies: ["HTML", "CSS", "Linux", "C++", "Python", "Prometheus", "Grafana", "Tableau", "Power BI"],
   },
 ];
 
