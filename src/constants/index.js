@@ -30,7 +30,7 @@ export const EXPERIENCES = [
   {
     year: "June,2025 - Present",
     role: "SDE - 1 Frontend Developer",
-    company: "Razornext",
+    company: "OneCX",
     description: [
       `Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript. Contributed to the admin panel for category, catalog, coupons, order, and customer management. Used TanStack Query for efficient API handling and Zustand for scalable state management. Improved Core Web Vitals and performance using page optimization and caching techniques. Toskie talent onboarding GraphQL, Websocket, RBAC, Strapi, Next.js, TypeScript, Redis to reduce redundant backend calls, improve response times. Also worked on Flipkart blogging platform.`    
     ],
